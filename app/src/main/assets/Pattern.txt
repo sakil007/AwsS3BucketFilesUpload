@@ -1,0 +1,59 @@
+{
+	"count": 1,
+	"step1": {
+		"fields": [{
+			"key": "mode",
+			"type": "spinner",
+			"hint": "Mode",
+			"v_required": {
+				"value": true,
+				"err": "Please enter Mode"
+			},
+			"values": ["Oncall Cab", "MonthlyCab", "Others"]
+		},
+		 {
+                             "key":"chooseImage",
+                             "type":"choose_image",
+                             "uploadButtonText":"Choose"
+                         },
+
+		{
+			"key": "start_point",
+			"type": "edit_text",
+			"hint": "Start Point",
+			"v_required": {
+				"value": true,
+				"err": "Please enter Start Point"
+			}
+		}, {
+			"key": "start_time",
+			"type": "time_piker",
+			"hint": "Start Time",
+			"v_required": {
+				"value": true,
+				"err": "Please enter Start Time"
+			}
+		}, {
+			"key": "start_km",
+			"type": "edit_text",
+			"hint": "Start KM"
+		}, {
+			"key": "end_point",
+			"type": "edit_text",
+			"hint": "End Point",
+			"v_required": {
+				"value": true,
+				"err": "Please enter End Point"
+			}
+		}, {
+			"key": "end_time",
+			"type": "edit_text",
+			"hint": "End Time ",
+			"v_required": {
+				"value": true,
+				"err": "Please enter End Time "
+			}
+		}]
+	},
+	"title": "Expense Details"
+}
